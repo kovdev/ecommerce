@@ -1,0 +1,25 @@
+.MuiPaper-rounded {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+}
+.MuiSwitch-root {
+  position: sticky !important;
+  z-index: 10000 !important;
+  transform: translateX(-50%) !important;
+  top: 1.5% !important;
+  left: 50% !important;
+}
+@media screen and (max-width: 600px) {
+  .MuiSwitch-root {
+    position: sticky !important;
+    z-index: 10000 !important;
+    transform: translateX(-50%) !important;
+    top: 1.5% !important;
+    left: 75% !important;
+  }
+}
+main {
+  height: 100vh;
+}
